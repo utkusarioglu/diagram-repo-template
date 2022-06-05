@@ -1,0 +1,20 @@
+{
+  "name": "diagram-repo-template.templates.utkusarioglu.com",
+  "dockerComposeFile": [
+    "../.docker/docker-compose.dev.yml",
+    "docker-compose.yml"
+  ],
+  "service": "diagram-repo-template",
+  "workspaceFolder": "/utkusarioglu/templates/diagram-repo-template",
+  "settings": {
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#5f003f"
+    }
+  },
+  "extensions": [
+    "jebbs.plantuml"
+  ],
+  "features": {
+    "github-cli": "latest"
+  }
+}
