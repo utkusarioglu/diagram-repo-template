@@ -1,6 +1,6 @@
 version: "3.9"
 services:
   diagram-repo-template:
-    image: utkusarioglu/plantuml-devcontainer
+    image: utkusarioglu/plantuml-devcontainer:1.0.0
     volumes:
       - ..:/utkusarioglu/templates/diagram-repo-template
