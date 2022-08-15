@@ -1,7 +1,6 @@
 version: "3.9"
 services:
   diagram-repo-template:
-    # Built by github actions from Dockerfile.dev
-    image: utkusarioglu/plantuml-dev-environment
+    image: utkusarioglu/plantuml-devcontainer
     volumes:
       - ..:/utkusarioglu/templates/diagram-repo-template

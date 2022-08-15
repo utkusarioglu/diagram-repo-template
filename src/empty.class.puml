@@ -1,7 +1,0 @@
-@startuml Empty Class
-!include theme.puml
-title Empty Class
-
-class Empty
-
-@enduml
