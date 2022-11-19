@@ -8,13 +8,15 @@
   "workspaceFolder": "/utkusarioglu/templates/diagram-repo-template",
   "settings": {
     "workbench.colorCustomizations": {
-      "activityBar.background": "#5f003f"
+      "activityBar.background": "#ff0000",
+      "activityBar.foreground": "#000000"
     }
   },
-  "extensions": [
-    "jebbs.plantuml"
-  ],
-  "features": {
-    "github-cli": "latest"
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "jebbs.plantuml"
+      ]
+    }
   }
 }
